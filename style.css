@@ -17,4 +17,18 @@ body {
     font-size: 15px;
     font-weight: 1000;
     width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.active, .folder:hover {
+    background-color: #e9ecf0;
+}
+
+.hidden {
+    padding:  0 10px;
+    overflow: hidden;
+    display: none;
 }
